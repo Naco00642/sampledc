@@ -1,0 +1,142 @@
+/* General styling for the whole website */
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Styling for all header */
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #535357;
+}
+
+/* Styling for all navbar */
+nav{
+    display: flex;
+    margin: 30px 200px;
+}
+
+
+li{
+    list-style-type: none;
+    padding-left: 90px;
+    color: #6efc6e;
+    cursor: pointer;
+    font-size: 25px;
+}
+li:hover{
+    text-decoration: underline;
+    color:  #ffffff;
+}
+
+button{
+    height: 70px;
+    width: 300px;
+    margin: 450px -820px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #ffffff;
+    background: linear-gradient(#0c0c77, #2d5fbb, #80b3ee);
+    cursor: pointer;
+    position: absolute;
+}
+
+button:hover{
+    background: #9042da;
+    transform: scale(1.1); 
+}
+
+main>img{
+    width: 100%;
+    opacity: 100%;
+    position: relative;
+}
+
+h2{
+    color: #9042da;
+    font-size: 65px;
+    position: absolute;
+    margin: -800px 165px;
+    width: 100%;
+    text-shadow: 2px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+main>p{
+    position: absolute;
+    margin: -120px 50px;
+    font-size: 25px;
+    font-weight: light;
+}
+
+footer{
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+    margin-top: -10px;
+    position: absolute;
+}
+
+
+
+/* Styling for the form.html file begins here */
+
+a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #6efc6e;
+}
+
+a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+form{
+    height: 800px;
+    width: 45%;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    background-color: #d15ad1;
+    color: #ffffff;
+    margin: 30px 380px;
+    font-weight: bolder;
+    display: grid;
+}
+
+legend{
+    font-size: 35px;
+    color: #6efc6e;
+    margin: -120px 50px;
+}
+
+label{
+    margin: -20px 50px;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+    height: 35px;
+    margin-left: 50px;
+}
+
+.form-footer{
+    margin-top: 293px;
+}
+
+.form-button{
+    height: 40px;
+    width: 30%;
+    border-radius: 5px;
+    margin: 770px 100px;
+    background-color: #535357;
+}
